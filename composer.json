@@ -31,11 +31,11 @@
         }
     },
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "doctrine/orm": "^2.7.3",
         "psr/log": "^1.1 || ^2.0 || ^3.0",
         "sentry/sdk": "^3.1",
-        "symfony/yaml": "^5.4 || ^6.0"
+        "symfony/yaml": "^5.4 || ^6.0 || ^7.0"
     },
     "require-dev": {
         "doctrine/doctrine-bundle": "^2.5",
@@ -45,8 +45,8 @@
         "phpstan/phpstan-symfony": "^1.0",
         "phpunit/phpunit": "^9.5.10",
         "sentry/sentry-symfony": "^4.0",
-        "symfony/framework-bundle": "^5.4 || ^6.0",
-        "symfony/phpunit-bridge": "^6.0",
+        "symfony/framework-bundle": "^5.4 || ^6.0 || ^7.0",
+        "symfony/phpunit-bridge": "^6.0 || ^7.0",
         "symplify/easy-ci": "^10.0",
         "symplify/monorepo-builder": "^10.0"
     },
